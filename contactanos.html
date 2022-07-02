@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilo.css"></link>
+    <title>contactanos</title>
+</head>
+<body>
+    <style type="text/css">
+        body{
+            background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190523/pngtree-abstract-pink-marble-background-image_115578.jpg");
+        }
+    </style>
+    
+        <p id="inicio">
+                <center><h1 color:#000000; padding: 15px;><img src="https://m1.paperblog.com/i/421/4218918/ideas-imagenes-logos-cupcakes-animados-tu-neg-L-4Obtqz.png" width="60" height="60">CACERITOS POSTRES</h1></center>
+               </p>
+                <p id="enlaces"></p>
+                    
+                    <center>
+                        <a style="color:black ;" href="Quienes Somos.html" target=""> • QUIENES SOMOS</a> •
+                        <a style="color:black ;" href="index.html" target="">PAGINA PRINCIPAL</a> •
+                        <a style="color:black ;" href="contactanos.html"target="">CONTACTANOS</a> •
+                        <a style="color:black ;"href="file:///C:/Users/usuario/Documents/index/recetas.html"target="">RECETAS</a> •
+               </center></p><br>
+
+               
+            <center><label>Nombres y Apellidos </label>
+            <input type="text" id="nomape" name="nomape" required placeholder="Digite su nombre y apellido" 
+            minlength="10" maxlength="30"><br>
+
+            <label>Correo Electrónico </label>
+            <input type="email" id="email" name="email" required placeholder="email@email.com"><br>
+
+            <label>Fecha de Nacimiento</label>
+            <input type="date" id="fenac" name="fenac" step="1" min="1900-01-01" max="2022-06-30" required><br>
+
+            <label>Número Telefónico</label>
+            <input type="number" id="num" name="num" required placeholder="Digite su número telefónico"><br>
+
+            <label>Genero</label>
+            <select id="elec" name="elec" required>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Pnd">Prefiero no decirlo</option>
+            </select><br>
+
+            <label>Horario Disponible</label>
+            <input type="radio" id="mañana" name="disponible" value="mañana">Mañana
+            <input type="radio" id="tarde" name="disponible" value="tarde">Tarde
+            <input type="radio" id="noche" name="disponible" value="noche">Noche<br>
+
+            <label>Sugerencias</label><br>
+            <textarea id="sug" name="sug" rows="5" cols="45" required placeholder="Escribe Una Sugerencia"></textarea><br><br>
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+            <input type="reset" value="Borrar" id="borrar" name="borrar"></center>
+
+</body>
+</html>
